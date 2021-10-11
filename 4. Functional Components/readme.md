@@ -10,7 +10,7 @@ Properties     -->    Javascript Function    --> HTML(JSX)
 ```
 src
     +|__components
-            +|__Greet.JSX
+            +|__Greet.js
 ```
 
 ###    Greet
