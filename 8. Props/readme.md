@@ -10,6 +10,8 @@
 2.  Then pass it to child component(s) by using Props.
 3.  Finally, render the Props Data.
 
+##  Implementation in Functional components
+
 ### Greet
 
 ```js
@@ -29,5 +31,29 @@ const Greet = (props) => {
 <Greet name = "Bruce" heroName = "Batman"/>
 <Greet name = "Clark" heroName = "Superman"/>
 <Greet name = "Diana" heroName = "Wonder Woman"/>
+...
+```
+
+##  Implementation in Class components
+
+### Welcome
+
+```js
+...
+class Welcome extends Component {
+  render(props){
+    return <h1> Welcome {this.props.name} a.k.a {this.props.heroName}</h1>
+  }
+}
+...
+```
+
+### App.js
+
+```js
+...
+<Welcome name = "Bruce" heroName = "Batman"/>
+<Welcome name = "Clark" heroName = "Superman"/>
+<Welcome name = "Diana" heroName = "Wonder Woman"/>
 ...
 ```
