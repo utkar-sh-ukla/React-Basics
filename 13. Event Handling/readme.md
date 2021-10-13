@@ -24,7 +24,7 @@ function FunctionClick() {
   }
   return (
     - <button onClick = {clickHandler()} >Click me !</button> 
-    + <button onClick = {clickHandler} >Click me !</button>
++     <button onClick = {clickHandler} >Click me !</button>
   )
 }
 
