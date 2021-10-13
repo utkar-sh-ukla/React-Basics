@@ -23,7 +23,7 @@ function FunctionClick() {
     console.log('clicked !')
   }
   return (
-    <span style="color:red"> <button onClick = {clickHandler()} >Click me !</button></span>
+    [+ <button onClick = {clickHandler()} >Click me !</button> +]
     <button onClick = {clickHandler} >Click me !</button>
   )
 }
