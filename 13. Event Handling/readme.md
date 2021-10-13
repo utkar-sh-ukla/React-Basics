@@ -23,7 +23,7 @@ function FunctionClick() {
     console.log('clicked !')
   }
   return (
-    - <button onClick = {clickHandler()} >Click me !</button> 
+-     <button onClick = {clickHandler()} >Click me !</button> 
 +     <button onClick = {clickHandler} >Click me !</button>
   )
 }
