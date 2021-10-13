@@ -15,7 +15,7 @@ components
 
 ####  FunctionClick
 
-```
+```diff
 import React from 'react'
 
 function FunctionClick() {
