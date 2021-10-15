@@ -4,12 +4,13 @@
 
 
 
-![Lifecycle Methods drawio (1)](https://user-images.githubusercontent.com/61664827/137441714-315c5200-f59e-4909-9ac9-abb256e531dd.png)
+![Lifecycle Methods drawio (1)](https://user-images.githubusercontent.com/61664827/137442769-8eaf49bd-29d9-4e7f-bfef-bbd8e0fe4f06.png)
 
 
 
-![Lifecycle Methods drawio (2)](https://user-images.githubusercontent.com/61664827/137441721-ae03487e-948d-428a-a40f-c67b4cabd33e.png)
+![Lifecycle Methods drawio (2)](https://user-images.githubusercontent.com/61664827/137442789-3c663a6c-1eaf-4a63-a31b-dbb0d097fc05.png)
 
 
 
-![Lifecycle Methods drawio (3)](https://user-images.githubusercontent.com/61664827/137441744-1cfb6e21-edf9-4247-8f45-4d5d234418a5.png)
+![Lifecycle Methods drawio (3)](https://user-images.githubusercontent.com/61664827/137442801-5afc7cda-8758-4426-bfe4-a299b1bc0b3f.png)
+
