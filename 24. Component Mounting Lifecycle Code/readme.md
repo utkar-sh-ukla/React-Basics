@@ -1,58 +1,48 @@
-# Component Updating Lifecycle Methods Code
+# Component Mounting Lifecycle Code
+
+### Folder Structure
+
+```
+components
+    +|__LifecycleA.js
+    +|__LifecycleB.js
+```
 
 ### LifecycleA
 
 ```js
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import LifecycleB from './LifecycleB'
 
 class LifecycleA extends Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			name: 'Brian'
-		}
-		console.log('LifecycleA constructor')
-	}
+  constructor(props){
+    super(props)
+    this.state = {
+      name: 'Brian'
+    }
+    console.log('Lifecycle A constructor')
+  }
 
-	static getDerivedStateFromProps(props, state) {
-		console.log('LifecycleA getDerivedStateFromProps')
-		return null
-	}
-
-	componentDidMount() {
-		console.log('LifecycleA componentDidMount')
-	}
-
-	shouldComponentUpdate() {
-		console.log('LifecycleA shouldComponentUpdate')
-		return true
-	}
-
-	getSnapshotBeforeUpdate(prevProps, prevState) {
-		console.log('LifecycleA getSnapshotBeforeUpdate')
+  static getDerivedStateFromProps(props, state){
+    console.log('Lifecycle A getDerivedStateFromProps')
     return null
-	}
+  }
 
-	componentDidUpdate(prevProps, prevState, snapshot) {
-		console.log('LifecycleA componentDidUpdate')
-	}
+  componentDidMount(){
+    console.log('Lifecycle A componentDidMount')
+  }
 
-	changeState = () => {
-		this.setState({
-			name: 'Diana'
-		})
-	}
-
-	render() {
-		console.log('LifecycleA render')
-		return (
-			<div>
-				<button onClick={this.changeState}>Change state</button>
-				LifecycleA<LifecycleB />
-			</div>
-		)
-	}
+  render(){
+    console.log('Lifecycle A render')
+    return(
+      <div>
+        <div>
+          Lifecycle A
+        </div>
+        <LifecycleB />
+      </div>
+    )
+  }
 }
 
 export default LifecycleA
@@ -60,54 +50,39 @@ export default LifecycleA
 
 ### LifecycleB
 ```js
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 
 class LifecycleB extends Component {
-
-  constructor(props) {
+  constructor(props){
     super(props)
     this.state = {
-      name: 'Vishwas'
+      name: 'Brian'
     }
-    console.log('LifecycleB constructor')
+    console.log('Lifecycle B constructor')
   }
 
-  static getDerivedStateFromProps(props, state) {
-    console.log('LifecycleB getDerivedStateFromProps')
+  static getDerivedStateFromProps(props, state){
+    console.log('Lifecycle B getDerivedStateFromProps')
     return null
   }
 
-  componentDidMount() {
-    console.log('LifecycleB componentDidMount')
+  componentDidMount(){
+    console.log('Lifecycle B componentDidMount')
   }
 
-  shouldComponentUpdate() {
-    console.log('LifecycleB shouldComponentUpdate')
-		return true
-	}
-
-	getSnapshotBeforeUpdate(prevProps, prevState) {
-    console.log('LifecycleB getSnapshotBeforeUpdate')
-    return null
-	}
-
-	componentDidUpdate(prevProps, prevState, snapshot) {
-		console.log('LifecycleB componentDidUpdate')
-	}
-
-  render() {
-    console.log('LifecycleB render')
-    return (
+  render(){
+    console.log('Lifecycle B render')
+    return(
       <div>
-        LifecycleB
+        Lifecycle B
       </div>
     )
   }
 }
 
 export default LifecycleB
-
 ```
 
 ***
+![Screenshot (12)](https://user-images.githubusercontent.com/61664827/137445496-6f089aae-4594-431a-9233-d35c8cd3c05b.png)
 
