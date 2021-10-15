@@ -49,6 +49,7 @@ class Form extends Component{
   render(){
     return(
       <form onSubmit = {this.handleSubmit}>
+      
         <div>
           <label> username </label>
           <input type='text' value = {this.state.username} onChange = {this.handleUsernameChange}/>
@@ -67,7 +68,9 @@ class Form extends Component{
             <option value = 'vue'> Vue </option>
           </select>
         </div>
+        
         <button type = 'submit'> submit </button>
+        
       </form>
     )
   }
