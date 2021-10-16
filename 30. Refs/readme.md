@@ -51,7 +51,7 @@ class RefsComp extends Component{
 export default RefsComp
 ```
 
-### Approach 2
+### Approach 2 (Callback Ref)
 ```js
 import React, {Component} from 'react'
 
