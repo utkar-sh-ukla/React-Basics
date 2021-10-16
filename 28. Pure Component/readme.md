@@ -96,4 +96,9 @@ class RegularComp extends Component{
 export default RegularComp
 ```
 
+### Console
+
+![Untitled ](https://user-images.githubusercontent.com/61664827/137583859-4ef54eb4-19b2-4af8-a34a-17c10b8fde3b.png)
+
+
 > If we Make Parent Component Pure than shallow comparison will also work on the child components.
