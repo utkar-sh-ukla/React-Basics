@@ -47,3 +47,7 @@ function MemoComp({name}) {
 
 export default React.memo(MemoComp)
 ```
+
+### Console
+![Untitled design](https://user-images.githubusercontent.com/61664827/137585821-3fd39371-9a59-47d8-b048-4beada82d80d.png)
+
