@@ -73,7 +73,7 @@ export default ComponentF
 
 ##  Steps to create a Context API
 
-### Crete the Context
+### 🎯Create the Context
 
 ####  userContext
 
@@ -87,7 +87,7 @@ const UserConsumer = UserContext.Consumer
 
 export {UserProvider, UserConsumer}
 ```
-### Provide a context 
+### 🎯Provide a context 
 
 #### App
 
@@ -108,7 +108,7 @@ function App() {
 export default App;
 ```
 
-### Consume the context value
+### 🎯Consume the context value
 
 ####  ComponentF
 
