@@ -6,7 +6,7 @@
 ```
 npm install axios
 ```
-##  HTTP GET REQUEST
+##  👉🏻 HTTP GET REQUEST
 
 ### File Structure
 ```
@@ -62,7 +62,7 @@ class PostList extends Component {
 export default PostList
 ```
 
-### HTTP POST REQUEST
+## 👉 HTTP POST REQUEST
 
 ### File Structure
 ```
