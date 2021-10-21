@@ -1,5 +1,8 @@
 # React - HTTP
 
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/61664827/138263199-c0569311-9792-46f5-afb4-a0432127485c.png)
+
+
 ### Setup
 ```
 npm install axios
