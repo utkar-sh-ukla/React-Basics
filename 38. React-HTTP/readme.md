@@ -123,5 +123,7 @@ class PostForm extends Component {
 export default PostForm
 ```
 
+### Console
+
 ![Screenshot (23)](https://user-images.githubusercontent.com/61664827/138266666-5bae12b5-2ed2-43b2-8ed2-c932452d3ded.png)
 
