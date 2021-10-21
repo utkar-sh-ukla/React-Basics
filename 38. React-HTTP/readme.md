@@ -1,5 +1,7 @@
 # React - HTTP
 
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/61664827/138263199-c0569311-9792-46f5-afb4-a0432127485c.png)
+
 ### Setup
 ```
 npm install axios
@@ -120,4 +122,6 @@ class PostForm extends Component {
 
 export default PostForm
 ```
+
+![Screenshot (23)](https://user-images.githubusercontent.com/61664827/138266666-5bae12b5-2ed2-43b2-8ed2-c932452d3ded.png)
 
