@@ -7,5 +7,5 @@ There are two ways to **create-react-app**
 
 | `npx`      | `npm` |
 | ----------- | ----------- |
-| `npm create-react-app <project_name>` | `npm install create-react-app -g`|
+| `npx create-react-app <project_name>` | `npm install create-react-app -g`|
 | *npm package runner*   | `create-react-app <project_name>`|
