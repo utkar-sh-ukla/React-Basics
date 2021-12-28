@@ -6,7 +6,7 @@ relative_links:
 include:
   - CONTRIBUTING.md
   - README.md
-  - ./1. Introduction/readme.html
+  - /1. Introduction/readme.html
   - LICENSE.md
   - COPYING.md
   - CODE_OF_CONDUCT.md
